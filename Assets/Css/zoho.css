@@ -1,0 +1,562 @@
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: #fdf7f5;
+        }
+
+        :root {
+            --BGcolor: #FFFFFF;
+            --COLOR: #01010eec;
+            --Fontcolor: #000000;
+        }
+
+        /* Normal styles */
+        ol,
+        li {
+            list-style: none;
+        }
+
+
+        header {
+            background-color: var(--BGcolor);
+
+        }
+
+        .utilities {
+            display: inline-flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .utilities>div {
+            margin: 0 10px;
+
+
+        }
+
+        .global-header-button>p {
+            color: #F0483E;
+
+            margin-top: 18px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+
+        main {
+            background-color: #FFECE6;
+        }
+
+
+        .itemm {
+            display: flex;
+            flex-wrap: wrap;
+
+            flex-direction: row-reverse;
+        }
+
+
+
+        .clipimg {
+            width: 80px;
+            margin-left: 70px;
+            background-color: #FFECE6;
+            backdrop-filter: initial;
+        }
+
+        .streamline {
+            width: 600px;
+            height: 400px;
+            float: right;
+        }
+
+        .h1text {
+            margin-top: 30px;
+            padding: 9px;
+            font-size: 60px;
+            line-height: 1;
+        }
+
+        .para {
+            padding: 9px;
+            line-height: 1.3;
+            font-size: 19px;
+        }
+
+        .btn-custom {
+            margin-left: 40px;
+            border: none;
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            background-color: #F0483E;
+            color: var(--BGcolor);
+            font-weight: 500;
+        }
+
+        .main-brand {
+            width: 85%;
+            height: auto;
+            padding-top: 40px;
+            margin: 0 auto;
+        }
+
+        .brand-container {
+            background-color: #FFFFFF;
+            display: flex;
+            flex-wrap: wrap;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .brand-container img {
+            width: 90px;
+            height: 50px;
+            padding: 1px;
+            margin-left: 86px;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+
+        }
+
+        .brand-container-h6 {
+            margin-top: 30px;
+            color: #000000;
+        }
+
+        /* Social media Hub */
+        .central-hub {
+            background-color: #FFFFFF;
+            position: relative;
+        }
+
+        .hub-text {
+            font-size: 45px;
+            font-weight: 900;
+            margin-left: 5rem;
+            margin-bottom: 40px;
+        }
+
+        .hub-image img {
+            width: 70rem;
+            margin-left: 8px;
+        }
+
+        .social {
+            position: absolute;
+            padding: 0px;
+            margin-left: 73px;
+            color: #629ABD;
+            top: 300px;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+        .social-icon {
+            margin-left: -58px;
+            padding: 13px;
+            position: relative;
+        }
+
+        .svg-button {
+            border: none;
+            color: #629ABD;
+            background-color: transparent;
+            position: relative;
+
+        }
+
+        .icon-name {
+            font-size: 8px;
+            margin-left: -26px;
+            color: #629ABD;
+            position: absolute;
+            margin-top: 28px;
+
+        }
+
+        /* #rd Block */
+        .block-third {
+            margin-top: 90px;
+            padding: 40px;
+            background-color: #fdf7f5;
+            position: relative;
+
+        }
+
+        .block3-header {
+            text-align: center;
+            font-size: 3.4rem;
+            font-weight: bold;
+        }
+
+        .third-text {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .block-third-header {
+            margin-left: 180px;
+        }
+
+        .block-third-subhead {
+            margin-left: 120px;
+            font-weight: bold;
+        }
+
+
+        .block-third-para {
+            font-weight: 200;
+            margin-right: 20px;
+
+        }
+
+        .third-background {
+            width: 64rem;
+            margin-left: 120px;
+        }
+
+        /* block-third anime */
+        .anime-buttons {
+            border: 1px solid #000000;
+            position: absolute;
+            width: 40rem;
+            z-index: 1;
+            left: 350px;
+            bottom: 100px;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .anime-button {
+            border: none;
+            width: 6rem;
+            background-color: #fdf7f5;
+            font-size: 15px;
+            font-weight: 500;
+            color: #000000;
+        }
+
+        /* Fourth Block */
+        .block-fourth {
+            background-color: #fdf7f5;
+            position: relative;
+        }
+
+
+
+        span.span-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+
+        }
+
+        span.span-title::before {
+
+            content: "___________";
+            position: absolute;
+            bottom: 25px;
+            left: 420px;
+            right: 0;
+            height: 0.7em;
+        }
+
+        span.span-title::after {
+
+            content: "___________";
+            position: absolute;
+            bottom: 25px;
+            right: 420px;
+            height: 0.7em;
+        }
+
+
+        li img {
+            width: 150px;
+            height: 120px;
+
+        }
+
+        .award-icons-list {
+            background-color: #fdf7f5;
+            width: 70rem;
+            margin-top: 60px;
+            margin-left: 120px;
+            gap: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .leader-size {
+            width: 15rem;
+            height: 14rem;
+        }
+
+        .topperformer-size {
+            width: 10rem;
+            height: 10rem;
+        }
+
+        .slashdot {
+            width: 10rem;
+            height: 10rem;
+        }
+
+
+        /* 5th Block */
+
+        .block-5th {
+            position: relative;
+            margin: 90px;
+            background-color: #fdf7f5;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 1120px;
+        }
+
+
+
+        .app-innovation-challenge {
+            width: 500px;
+            height: 143px;
+        }
+
+        .block-5th>h4 {
+            margin-top: 10px;
+            margin-left: 120px;
+            width: 56rem;
+            font-size: 30px;
+        }
+
+        .h4-word {
+            margin-left: 18rem;
+
+        }
+
+        /* 6th block */
+
+
+        .business-block {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "content1 content1  video video"
+                "content1 content1  force appstore"
+                "content1 content1  getapp capterra "
+                "content1 content1  googleplay goggle"
+                "content1 content1  finance finance1";
+
+            gap: 2rem;
+
+        }
+
+        #content-box {
+            background-color: #023231;
+            grid-area: content1;
+            color: #fdf7f5;
+            padding: 50px 50px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: cenetr;
+
+        }
+
+        .quote {
+            position: relative;
+            width: 50px;
+            margin-left: 80px;
+            z-index: 1;
+            margin-top: -20px;
+        }
+
+        .circle {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #1B4442;
+            border-radius: 100%;
+            margin-top: -24rem;
+            margin-left: 30px;
+
+        }
+
+        .circle+p {
+            font-size: 19px;
+            padding: 20px;
+            margin-top: 80px;
+        }
+
+        .pubcations>span {
+           display: block;
+            
+        }
+
+        #video-box {
+            height: 200px;
+            background-color: #FFDBCF;
+            grid-area: video;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+
+        .video-img {
+            width: 246px;
+            height: 128px;
+            margin: 0 20px;
+        }
+
+        .normal-img {
+            width: 206px;
+            height: 128px;
+
+        }
+
+        #sourceforge {
+            height: 70px;
+            border: 1px solid #E3DAD5;
+            grid-area: force;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 3px;
+        }
+
+        .sourceforge-img {
+            width: 130px;
+            height: 36px;
+        }
+
+        #appstore {
+            border: 1px solid #E3DAD5;
+            grid-area: appstore;
+
+        }
+
+        .appstore-img {
+            width: 28px;
+            height: 35px;
+            position: relative;
+        }
+
+        .appname>span {
+            position: absolute;
+            margin-top: 5px;
+            margin-left: 6px;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+
+
+        .app-rating {
+            font-size: 24px;
+            font-weight: 400;
+            color: #4c4b4a;
+            margin-left: 60px;
+        }
+
+        .app-rating1 {
+            font-size: 24px;
+            font-weight: 400;
+            color: #4c4b4a;
+        }
+
+        #getapp {
+            border: 1px solid #E3DAD5;
+            grid-area: getapp;
+        }
+
+        #capterra {
+            border: 1px solid #E3DAD5;
+            grid-area: capterra;
+        }
+
+        #googleplay {
+            height: 70px;
+            border: 1px solid #E3DAD5;
+            grid-area: googleplay;
+        }
+
+        .googleplay-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        #google {
+            height: 70px;
+            border: 1px solid #E3DAD5;
+            grid-area: goggle;
+
+        }
+
+        .google-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 10px;
+
+        }
+
+        .google-img {
+            width: 40px;
+            height: 40px;
+        }
+
+        #finance {
+            border: 1px solid #E3DAD5;
+            grid-area: finance;
+        }
+
+        #finance1 {
+            grid-area: finance1;
+        }
+
+        .business-name {
+            text-align: center;
+            margin: 60px;
+
+        }
+
+        .business-name>h5 {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
