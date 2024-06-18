@@ -11,6 +11,7 @@
 
         body {
             background-color: #fdf7f5;
+            height: 100vh;
         }
 
         :root {
@@ -365,7 +366,9 @@
         }
 
         /* 6th block */
-
+        .block-six {
+            margin-bottom: 20rem;
+        }
 
         .business-block {
             display: grid;
@@ -383,23 +386,25 @@
         }
 
         #content-box {
+
             background-color: #023231;
             grid-area: content1;
             color: #fdf7f5;
             padding: 50px 50px 50px;
             display: flex;
+            flex-wrap: nowrap;
             flex-direction: column;
             justify-content: space-around;
-            align-items: cenetr;
+            align-items: center;
 
         }
 
         .quote {
             position: relative;
             width: 50px;
-            margin-left: 80px;
+            margin-left: -230px;
             z-index: 1;
-            margin-top: -20px;
+            margin-top: 20px;
         }
 
         .circle {
@@ -408,20 +413,44 @@
             height: 100px;
             background-color: #1B4442;
             border-radius: 100%;
-            margin-top: -24rem;
-            margin-left: 30px;
+            margin-top: -25.7rem;
+            margin-left: -277px;
 
         }
 
         .circle+p {
             font-size: 19px;
-            padding: 20px;
-            margin-top: 80px;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        .pubcations {
+            margin-left: -190px;
         }
 
         .pubcations>span {
-           display: block;
-            
+            display: block;
+        }
+
+        .author-name {
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        .publish-company {
+            font-size: 15px;
+        }
+
+        .slide-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slides {
+            width: 200px;
+            height: 2px;
+            background-color: #045554;
         }
 
         #video-box {
@@ -448,7 +477,7 @@
         }
 
         #sourceforge {
-            height: 70px;
+            height: 90px;
             border: 1px solid #E3DAD5;
             grid-area: force;
             display: flex;
@@ -509,7 +538,7 @@
         }
 
         #googleplay {
-            height: 70px;
+            height: 90px;
             border: 1px solid #E3DAD5;
             grid-area: googleplay;
         }
@@ -522,7 +551,7 @@
         }
 
         #google {
-            height: 70px;
+            height: 90px;
             border: 1px solid #E3DAD5;
             grid-area: goggle;
 
@@ -533,6 +562,7 @@
             justify-content: space-around;
             align-items: center;
             padding-top: 10px;
+            margin-top: 10px;
 
         }
 
@@ -559,4 +589,238 @@
         .business-name>h5 {
             font-size: 1.2rem;
             font-weight: bold;
+        }
+
+        /* Block 7th */
+        .desc>h2 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        h2>span {
+            display: block;
+        }
+
+        .desc-para {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .desc-para>span {
+            display: block;
+        }
+
+        .design {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .design-content {
+            max-width: 400px;
+            height: 300px;
+            margin: 10px;
+        }
+
+        .design-img {
+            height: 90px;
+        }
+
+        .design-content>h2 {
+            margin: 10px;
+            font-weight: bold;
+
+        }
+
+        .design-content>p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 10px;
+        }
+
+        .content-link {
+            font-size: 20px;
+            font-weight: 500;
+            color: #03a9f5;
+        }
+
+        /* Block 8 */
+        .block-eight {
+            margin-top: 5rem;
+            margin-bottom: 20px;
+        }
+
+        .process {
+            display: flex;
+            flex: column wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .process-flex {
+            width: 350px;
+            margin: 20px;
+
+        }
+
+        .process-desc>h2 {
+            font-size: 55px;
+            font-weight: bold;
+            margin-left: 40px;
+            position: relative;
+
+        }
+
+        .process-para {
+            padding: 10px;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-left: 40px;
+        }
+
+        .process-para>span {
+            display: block;
+            color: #000000;
+        }
+
+        .process-img {
+            width: 130px;
+            height: 145px;
+            margin-top: 10px;
+            margin-left: 100px;
+
+        }
+
+        .process-flex>h4 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .process-flex>p {
+            text-align: center;
+        }
+
+        #anime {
+            position: absolute;
+            background-color: #FFDBDB;
+            width: 10rem;
+            height: 60px;
+            z-index: -1;
+            margin-top: -2.7rem;
+            margin-left: 85px;
+            border-radius: 15px;
+            padding: 3px;
+        }
+
+        #anime2nd {
+            position: absolute;
+            background-color: #DBDFFF;
+            width: 10rem;
+            height: 50px;
+            z-index: -1;
+            margin-top: -2.7rem;
+            margin-left: 85px;
+            border-radius: 15px;
+            padding: 3px;
+        }
+
+        #anime3rd {
+            position: absolute;
+            background-color: #C9F4DD;
+            width: 10rem;
+            height: 50px;
+            z-index: -1;
+            margin-top: -2.7rem;
+            margin-left: 85px;
+            border-radius: 15px;
+            padding: 3px;
+        }
+
+        .process-para>span {
+            display: block;
+            line-height: 1.5;
+        }
+
+        .slide-down {
+            margin-top: 30px;
+            animation: slide 3s ease-in-out;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translate(50px, 0, 0);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translate(0, 0, 0);
+                opacity: 1;
+            }
+        }
+
+        /* block nine */
+        .block-nine {
+            background-color: #123131;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        .flex-first {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-right: 6rem;
+            padding: 20px;
+        }
+
+        .zoho-clip {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .zoho-clip>span {
+            display: block;
+        }
+
+        .block-nine-content,
+        .block-nine-leftimg {
+            max-width: 400px;
+            margin: 20px;
+            padding: 30px;
+            color: #E3DAD5;
+
+        }
+
+        .nine-block-para {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .apps-download {
+            color: #E3DAD5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        .appas-icons {
+            width: 30px;
+            height: 20px;
+        }
+
+        .apps-section-block {
+            display: block;
+        }
+
+        .apps-section-block>span {
+            display: block;
+        }
+
+        .apps-icon>span {
         }
