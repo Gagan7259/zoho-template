@@ -12,6 +12,7 @@
         body {
             background-color: #fdf7f5;
             height: 100vh;
+            overflow-x: hidden;
         }
 
         :root {
@@ -21,10 +22,10 @@
         }
 
         /* Normal styles */
-        ol,
         li {
             list-style: none;
         }
+
 
 
 
@@ -62,7 +63,6 @@
         .itemm {
             display: flex;
             flex-wrap: wrap;
-
             flex-direction: row-reverse;
         }
 
@@ -158,14 +158,12 @@
 
         .social {
             position: absolute;
-            padding: 0px;
             margin-left: 73px;
             color: #629ABD;
             top: 300px;
             z-index: 1;
             display: flex;
             flex-wrap: wrap;
-
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
@@ -199,7 +197,6 @@
         .block-third {
             margin-top: 90px;
             padding: 40px;
-            background-color: #fdf7f5;
             position: relative;
 
         }
@@ -234,7 +231,8 @@
 
         .third-background {
             width: 64rem;
-            margin-left: 120px;
+            margin-left: 60px;
+
         }
 
         /* block-third anime */
@@ -263,7 +261,6 @@
 
         /* Fourth Block */
         .block-fourth {
-            background-color: #fdf7f5;
             position: relative;
         }
 
@@ -281,7 +278,7 @@
 
         span.span-title::before {
 
-            content: "___________";
+            /* content: "___________"; */
             position: absolute;
             bottom: 25px;
             left: 420px;
@@ -291,7 +288,7 @@
 
         span.span-title::after {
 
-            content: "___________";
+            /* content: "___________"; */
             position: absolute;
             bottom: 25px;
             right: 420px;
@@ -306,10 +303,8 @@
         }
 
         .award-icons-list {
-            background-color: #fdf7f5;
             width: 70rem;
             margin-top: 60px;
-            margin-left: 120px;
             gap: 2rem;
             display: flex;
             justify-content: center;
@@ -338,7 +333,6 @@
         .block-5th {
             position: relative;
             margin: 90px;
-            background-color: #fdf7f5;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -459,7 +453,7 @@
             background-color: #FFDBCF;
             grid-area: video;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
             align-items: center;
 
         }
@@ -468,12 +462,14 @@
         .video-img {
             width: 246px;
             height: 128px;
-            margin: 0 20px;
+            margin-left: 16px;
         }
 
         .normal-img {
             width: 206px;
             height: 128px;
+            margin: 0 20px;
+
 
         }
 
@@ -1021,11 +1017,28 @@
         }
 
         /* 3rd footer */
+        .searchh {
+            border: 1px solid #0f0e0e;
+            background-color: #F7F7F7;
+            padding-right: 10px;
+            margin: 0px 30px;
+        }
+
+        .searchh>div {
+            display: inline-block;
+        }
+
+        .searchstyle {
+            padding: 9px;
+            font-size: 20px;
+
+        }
 
         .inputtext {
             width: 30rem;
-            height: 40px;
-
+            height: 45px;
+            text-align: left;
+            font-size: 19px;
         }
 
 
@@ -1044,15 +1057,20 @@
             align-items: center;
         }
 
-
+        #placeholderstyle::placeholder {
+            font-size: 14px;
+            padding-left: 10px;
+        }
 
         .languagee {
-            margin-left: 10px;
+            margin-left: 30px;
         }
 
         .btnstyle {
-            width: 100px;
-            height: 40px;
+            width: 130px;
+            height: 50px;
+            background-color: #EDEDED;
+            border: 1px solid #6b6b6b;
         }
 
 
@@ -1082,4 +1100,14 @@
             text-align: center;
             font-size: 11px;
             padding: 3px;
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            
         }
